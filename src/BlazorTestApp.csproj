@@ -2,7 +2,8 @@
 
     <PropertyGroup>
         <AssemblyName>blazor-test-app</AssemblyName>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
+        <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
         <IsTrimmable>false</IsTrimmable>
 		<EnableTrimAnalyzer>false</EnableTrimAnalyzer>
 		<PublishTrimmed>false</PublishTrimmed>
